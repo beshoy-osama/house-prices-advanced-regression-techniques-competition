@@ -1,7 +1,6 @@
 # 🏠 House Prices — Advanced Regression Techniques
 
-> **Kaggle Competition** · Faculty of Computers and Artificial Intelligence · Machine Learning Project 2026  
-> **Author:** Eng. Beshoy Osama
+> **Kaggle Competition** · Faculty of Computers and Artificial Intelligence · Machine Learning Project 2026 
 
 A complete machine learning pipeline to predict residential property sale prices in Ames, Iowa, using 79 explanatory variables. The project covers exploratory data analysis, preprocessing, feature engineering, and multi-model evaluation.
 
@@ -18,21 +17,6 @@ A complete machine learning pipeline to predict residential property sale prices
 | **XGBoost** | **0.0806** | **0.1138** | **0.0079** | **0.13115** ✅ |
 
 **Best model:** XGBoost · CV RMSLE `0.1138` · Kaggle Public `0.13115` (est. Top 30%)
-
----
-
-## 📁 Project Structure
-
-```
-house-prices/
-├── house_prices_notebook-b.ipynb   # Full pipeline: EDA → preprocessing → modeling
-├── house_prices_report.pdf         # Detailed project report with figures
-├── train.csv                       # Training data (1,460 rows, 81 features)
-├── test.csv                        # Test data (1,459 rows, 80 features)
-├── submission_svr_tuned.csv        # Kaggle submission — SVR Tuned
-├── submission_lasso.csv            # Kaggle submission — Lasso
-└── submission_xgboost.csv          # Kaggle submission — XGBoost (best)
-```
 
 ---
 
